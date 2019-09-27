@@ -1,0 +1,114 @@
+/* ナビゲーション */
+.nav-top{
+  background-color:#F2F2F2;
+  border-bottom:1px solid gray;
+}
+.nav1{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.nav1-right a{
+  padding-right:20px;
+  text-decoration:none;
+  color:skyblue;
+  font-size:14px;
+}
+.modal{
+  display:none;
+  height:100vh;
+  position:absolute;
+  position:fixed;
+}
+.modal-bg{
+  background:rgba(0,0,0,0.8);
+  height:100vh;
+  position:absolute;
+  width:100%;
+}
+.modal-content{
+  left:50%;
+  padding:40%;
+  position:absolute;
+  top:50%;
+  transform:translate(-50%, -50%);
+  width:60%;
+  color:green;
+/* Q.この下二つが反映されないです */
+  background-color:red;
+  border:1px solid gray;
+}
+.modal-open{
+  cursor:pointer;
+  font-size:24px;
+  border:1px solid gray;
+  padding:20px;
+  display:inline-block;
+  width:30%;
+}
+.trafficking-page{
+  text-align:center;
+}
+
+/* ナビゲーション２ */
+.navbar-left{
+  /* position:relative; */
+  display:inline-flex;
+
+}
+.logo-text{
+  font-size:10px;
+  padding:20px 0 0 20px;
+  /* position:absolute;
+  top:50%; */
+}
+ul .nav2-r{
+  display:inline-block;
+  /* position:relative; */
+  align-items:center;
+}
+.nav2-r{
+  font-size:10px;
+  text-decoration:none;
+  border:1px solid gray;
+  /* text-align:center; */
+  /* align-items:center; */
+  heigh:100px;
+  /* line-height:100%; */
+  /* position:absolute;
+  top:50%; */
+  box-sizing:border-box;
+  }
+.nav2{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+/* メニュー */
+.tab-group{
+  display:flex;
+  justify-content:center;
+  padding:0;
+
+}
+.tab{
+  font-size:16px;
+  list-style:none;
+  background-color:gray;
+  color:white;
+  text-align:center;
+  width:20%;
+  padding:5px 0;
+  border-left:1px solid black;
+  cursor:pointer;
+}
+.panel{
+  display:none;
+}
+.show-panel{
+  display:block;
+}
+/* 各ページ */
+.menu-nav{
+  display:flex;
+}
